@@ -1,6 +1,7 @@
 //> using scala 3.5.2
 //> using toolkit default
 
+package day1
 def readInput(): Seq[String] =
     val path: os.Path = os.pwd / "inputs" / "day1.txt"
     val lines: Seq[String] = os.read.lines(path)
