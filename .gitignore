@@ -1,0 +1,6 @@
+.vscode
+*.metals
+*.bsp
+*.scala-build
+inputs/*
+test_inputs/*
