@@ -31,7 +31,7 @@ def isDecreasingAndSafeRemoveOne(line: Seq[Int]) =
         ).map(isDecreasingAndSafe).foldLeft(false)(_ || _)
 
 def isIncreasingAndSafeRemoveOne(line: Seq[Int]) =
-    if isDecreasingAndSafe(line) then
+    if isIncreasingAndSafe(line) then
         true
     else
         (0 to line.length).map(
